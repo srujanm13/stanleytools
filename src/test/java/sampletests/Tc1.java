@@ -1,14 +1,16 @@
 package sampletests;
 
+import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
+
 
 public class Tc1 {
 @Test
-	public static void open() {
+	public void open() {
+	System.setProperty("webdriver.chrome.driver", "D:\\Learn\\WorkSpace\\GitUpload\\stanleytools.com\\Drivers\\chromedriver.exe");
 		WebDriver d=new ChromeDriver();
-		d.get("www.google.com");
+		d.get("http://www.google.com");
 		
 	}
 	
