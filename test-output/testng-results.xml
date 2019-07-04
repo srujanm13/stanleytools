@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="9156" started-at="2019-07-02T14:27:13Z" finished-at="2019-07-02T14:27:22Z">
+  <suite name="Default suite" duration-ms="21514" started-at="2019-07-04T06:15:17Z" finished-at="2019-07-04T06:15:39Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="9156" started-at="2019-07-02T14:27:13Z" finished-at="2019-07-02T14:27:22Z">
+    <test name="Default test" duration-ms="21514" started-at="2019-07-04T06:15:17Z" finished-at="2019-07-04T06:15:39Z">
       <class name="sampletests.FirstTest">
-        <test-method status="PASS" signature="open()[pri:0, instance:sampletests.FirstTest@7ac7a4e4]" name="open" duration-ms="9145" started-at="2019-07-02T19:57:13Z" finished-at="2019-07-02T19:57:22Z">
+        <test-method status="PASS" signature="open()[pri:0, instance:sampletests.FirstTest@7ac7a4e4]" name="open" duration-ms="10552" started-at="2019-07-04T11:45:17Z" finished-at="2019-07-04T11:45:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- open -->
+        <test-method status="PASS" signature="open2()[pri:0, instance:sampletests.FirstTest@7ac7a4e4]" name="open2" duration-ms="10930" started-at="2019-07-04T11:45:28Z" finished-at="2019-07-04T11:45:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- open2 -->
       </class> <!-- sampletests.FirstTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
