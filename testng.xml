@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="sampletests.FirstTest"/>
+      <method>open2</method>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
